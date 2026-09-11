@@ -1,0 +1,7 @@
+{
+  "id": "microduck-cloud",
+  "displayName": "MicroDuck Cloud",
+  "description": "A chubby cloud-shaped MicroDuck companion with a flat mechanical bill and adorably awkward robot motion.",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.webp"
+}

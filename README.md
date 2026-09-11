@@ -2,7 +2,7 @@
 
 An unofficial community archive of themed MicroDuck pets for Codex.
 
-The archive currently includes a cartoon `MicroDuck` pet and its first themed variant, `MicroDuck Night Shift`, based on the real [Pollen Robotics MicroDuck](https://github.com/pollen-robotics/microduck). More themes can be added under `pets/` without changing the install contract.
+The archive currently includes a cartoon `MicroDuck` pet and two themed variants, `MicroDuck Night Shift` and `MicroDuck Cloud`, based on the real [Pollen Robotics MicroDuck](https://github.com/pollen-robotics/microduck). More themes can be added under `pets/` without changing the install contract.
 
 > This project is not affiliated with or endorsed by Pollen Robotics. `MicroDuck` is referenced here as the name of the open-source robot project.
 
@@ -21,6 +21,14 @@ The archive currently includes a cartoon `MicroDuck` pet and its first themed va
 - Personality: sleepy, focused, and slightly awkward
 - Identity detail: oversized hooded head, half-lidded camera eye, cyan status panel, and thin flat mechanical bill
 - Package: `pets/microduck-nightshift/pet.json` + `pets/microduck-nightshift/spritesheet.webp`
+
+### MicroDuck Cloud
+
+- Style: flat vector cloud-chibi
+- Personality: chubby, sleepy, and adorably awkward
+- Identity detail: puffy cloud-integrated head and belly, single camera lens, and thin flat mechanical bill
+- Animation: Codex v2 atlas with standard activity states and 16 look directions
+- Package: `pets/microduck-cloud/pet.json` + `pets/microduck-cloud/spritesheet.webp`
 
 ## Install
 
@@ -91,6 +99,23 @@ The demo loops through idle, waddling, waving, and review so the pet's behavior 
 - [16 look directions](previews/microduck-nightshift/look-directions.png)
 - [Neutral 192×208 frame](previews/microduck-nightshift/neutral-192x208.png)
 
+### MicroDuck Cloud
+
+<p align="center">
+  <img src="previews/microduck-cloud/demo.gif"
+       alt="MicroDuck Cloud pet demo"
+       width="260">
+</p>
+
+| Idle | Waddling | Waving | Review |
+| --- | --- | --- | --- |
+| <img src="previews/microduck-cloud/idle.gif" alt="Cloud idle animation" width="150"> | <img src="previews/microduck-cloud/running-right.gif" alt="Cloud waddling animation" width="150"> | <img src="previews/microduck-cloud/waving.gif" alt="Cloud waving animation" width="150"> | <img src="previews/microduck-cloud/review.gif" alt="Cloud review animation" width="150"> |
+
+- [Canonical character](previews/microduck-cloud/canonical-base-green.png)
+- [Animation contact sheet](previews/microduck-cloud/contact-sheet-extended.png)
+- [16 look directions](previews/microduck-cloud/look-directions.png)
+- [Neutral 192×208 frame](previews/microduck-cloud/neutral-192x208.png)
+
 ## Repository layout
 
 ```text
@@ -100,7 +125,10 @@ microduck-codex-pets/
 │   ├── microduck/
 │   │   ├── pet.json
 │   │   └── spritesheet.webp
-│   └── microduck-nightshift/
+│   ├── microduck-nightshift/
+│   │   ├── pet.json
+│   │   └── spritesheet.webp
+│   └── microduck-cloud/
 │       ├── pet.json
 │       └── spritesheet.webp
 ├── previews/
@@ -110,7 +138,7 @@ microduck-codex-pets/
 
 Each future theme should get its own directory, for example `pets/microduck-space/`, with a self-contained `pet.json` and `spritesheet.webp`.
 
-Reusable creation prompts, mouth-design decisions, and motion mechanics are kept in [`docs/microduck/`](docs/microduck/) so future themes can build on the same design knowledge.
+Reusable creation prompts, mouth-design decisions, and motion mechanics are kept in [`docs/microduck/`](docs/microduck/) and the theme-specific [`docs/microduck-cloud/`](docs/microduck-cloud/) notes.
 
 ## Licensing
 

@@ -15,6 +15,13 @@
       "path": "pets/microduck-nightshift",
       "status": "available",
       "description": "Sleepy chibi Night Shift MicroDuck with a flat mechanical bill and compact robot motion."
+    },
+    {
+      "id": "microduck-cloud",
+      "displayName": "MicroDuck Cloud",
+      "path": "pets/microduck-cloud",
+      "status": "available",
+      "description": "Chubby cloud-shaped MicroDuck with a flat mechanical bill and adorably awkward robot motion."
     }
   ]
 }
