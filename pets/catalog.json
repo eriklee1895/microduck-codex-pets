@@ -22,6 +22,13 @@
       "path": "pets/microduck-cloud",
       "status": "available",
       "description": "Chubby cloud-shaped MicroDuck with a flat mechanical bill and adorably awkward robot motion."
+    },
+    {
+      "id": "microduck-space",
+      "displayName": "MicroDuck Space",
+      "path": "pets/microduck-space",
+      "status": "available",
+      "description": "Squat astronaut MicroDuck with a flat mechanical bill and adorably careful zero-gravity motion."
     }
   ]
 }
