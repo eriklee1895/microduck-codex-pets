@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "archive": "microduck-codex-pets",
+  "pets": [
+    {
+      "id": "microduck",
+      "displayName": "MicroDuck",
+      "path": "pets/microduck",
+      "status": "current",
+      "description": "Compact cartoon MicroDuck with a faithful flat mechanical bill."
+    }
+  ]
+}

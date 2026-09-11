@@ -1,0 +1,7 @@
+{
+  "id": "microduck",
+  "displayName": "MicroDuck",
+  "description": "A compact cute cartoon MicroDuck robot companion with a faithful flat mechanical bill and smooth, readable robot motion.",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.webp"
+}
