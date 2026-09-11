@@ -15,7 +15,11 @@ The repository starts with a cartoon `MicroDuck` pet based on the real [Pollen R
 - Animation: Codex v2 atlas with standard activity states and 16 look directions
 - Package: `pets/microduck/pet.json` + `pets/microduck/spritesheet.webp`
 
-## Install with Codex
+## Install
+
+Choose one:
+
+### Install with Codex (Recommended)
 
 Give Codex this prompt:
 
@@ -28,7 +32,7 @@ Use pets/microduck/ and keep other pets untouched.
 Tell me to refresh the Pets list when finished.
 ```
 
-## Manual install
+### Manual install
 
 Copy the package into the local Codex pet directory:
 
