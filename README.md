@@ -6,7 +6,7 @@ The repository starts with a cartoon `MicroDuck` pet based on the real [Pollen R
 
 > This project is not affiliated with or endorsed by Pollen Robotics. `MicroDuck` is referenced here as the name of the open-source robot project.
 
-## Included
+## Meet the Flock
 
 ### MicroDuck
 
@@ -15,7 +15,20 @@ The repository starts with a cartoon `MicroDuck` pet based on the real [Pollen R
 - Animation: Codex v2 atlas with standard activity states and 16 look directions
 - Package: `pets/microduck/pet.json` + `pets/microduck/spritesheet.webp`
 
-## Install locally
+## Let Codex Handle It
+
+Give Codex this prompt:
+
+```text
+Install or update the MicroDuck Codex pet from:
+
+https://github.com/eriklee1895/microduck-codex-pets
+
+Use pets/microduck/ and keep other pets untouched.
+Tell me to refresh the Pets list when finished.
+```
+
+## Manual install
 
 Copy the package into the local Codex pet directory:
 
@@ -25,7 +38,7 @@ mkdir -p "$PET_DIR"
 cp pets/microduck/pet.json pets/microduck/spritesheet.webp "$PET_DIR/"
 ```
 
-Then open Codex settings → Pets and refresh the list. The desktop app stores custom pets locally; see the [official Pets documentation](https://learn.chatgpt.com/zh-Hans/docs/pets).
+Then open Codex settings → Pets and refresh the list.
 
 ## Preview
 
