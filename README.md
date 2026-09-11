@@ -62,37 +62,6 @@ microduck-codex-pets/
 
 Each future theme should get its own directory, for example `pets/microduck-space/`, with a self-contained `pet.json` and `spritesheet.webp`.
 
-## Provenance and motion references
-
-The cartoon character was generated with `gpt-image-2` using the real MicroDuck reference images as visual inputs. The spritesheet was assembled and validated with the Codex v2 hatch-pet workflow.
-
-Motion grounding comes from the public [MicroDuck repository](https://github.com/pollen-robotics/microduck) and these public videos:
-
-- [Meet Microduck, the $399 Tiny Robot You Can Teach New Tricks](https://www.youtube.com/watch?v=reiTh7K4KSc)
-- [MicroDuck — Cute open-source mini duck robot](https://www.youtube.com/shorts/UV0dLksplZ0)
-
-For future motion research, download videos locally before watching or extracting frames:
-
-```bash
-yt-dlp -f "best" --merge-output-format mp4 \
-  -o "references/%(id)s.%(ext)s" \
-  "https://www.youtube.com/watch?v=reiTh7K4KSc"
-```
-
-The downloaded videos and original hardware photos are intentionally not committed to this repository.
-
-## Validation
-
-The package was validated before publishing:
-
-- 9 standard animation rows plus 2 look-direction rows
-- RGBA WebP atlas validation
-- chroma-edge despill validation
-- three-reviewer blind direction validation
-- independent final visual QA
-
-The detailed QA reports are kept in the local build workspace rather than this public archive. The design decisions and reproducible prompts are in [`docs/microduck/`](docs/microduck/).
-
 ## Licensing
 
 No license file is included yet. Until the artwork license is chosen, please do not assume that the generated artwork may be reused outside this archive. Attribution and source notes are in [`NOTICE.md`](NOTICE.md).
