@@ -44,7 +44,6 @@ microduck-codex-pets/
 │       ├── pet.json
 │       └── spritesheet.webp
 ├── previews/
-├── qa/
 ├── docs/
 └── NOTICE.md
 ```
@@ -70,9 +69,9 @@ yt-dlp -f "best" --merge-output-format mp4 \
 
 The downloaded videos and original hardware photos are intentionally not committed to this repository.
 
-## QA
+## Validation
 
-The current package has passed:
+The package was validated before publishing:
 
 - 9 standard animation rows plus 2 look-direction rows
 - RGBA WebP atlas validation
@@ -80,7 +79,7 @@ The current package has passed:
 - three-reviewer blind direction validation
 - independent final visual QA
 
-Detailed reports are in [`qa/microduck/`](qa/microduck/), and the design decisions are in [`docs/microduck/`](docs/microduck/).
+The detailed QA reports are kept in the local build workspace rather than this public archive. The design decisions and reproducible prompts are in [`docs/microduck/`](docs/microduck/).
 
 ## Licensing
 
