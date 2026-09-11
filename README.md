@@ -29,6 +29,18 @@ Then open Codex settings → Pets and refresh the list. The desktop app stores c
 
 ## Preview
 
+<p align="center">
+  <img src="previews/microduck/demo.gif"
+       alt="MicroDuck Codex pet demo"
+       width="260">
+</p>
+
+The demo loops through idle, waddling, waving, and review so the pet's behavior is visible without opening the spritesheet.
+
+| Idle | Waddling | Waving | Review |
+| --- | --- | --- | --- |
+| <img src="previews/microduck/idle.gif" alt="Idle animation" width="150"> | <img src="previews/microduck/running-right.gif" alt="Waddling animation" width="150"> | <img src="previews/microduck/waving.gif" alt="Waving animation" width="150"> | <img src="previews/microduck/review.gif" alt="Review animation" width="150"> |
+
 - [Canonical character](previews/microduck/canonical-base-green.png)
 - [Animation contact sheet](previews/microduck/contact-sheet-extended.png)
 - [16 look directions](previews/microduck/look-directions.png)
