@@ -56,7 +56,6 @@ microduck-codex-pets/
 │       ├── pet.json
 │       └── spritesheet.webp
 ├── previews/
-├── docs/
 └── NOTICE.md
 ```
 
