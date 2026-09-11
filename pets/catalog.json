@@ -8,6 +8,13 @@
       "path": "pets/microduck",
       "status": "current",
       "description": "Compact cartoon MicroDuck with a faithful flat mechanical bill."
+    },
+    {
+      "id": "microduck-nightshift",
+      "displayName": "MicroDuck Night Shift",
+      "path": "pets/microduck-nightshift",
+      "status": "available",
+      "description": "Sleepy chibi Night Shift MicroDuck with a flat mechanical bill and compact robot motion."
     }
   ]
 }
