@@ -56,10 +56,13 @@ microduck-codex-pets/
 │       ├── pet.json
 │       └── spritesheet.webp
 ├── previews/
+├── docs/
 └── NOTICE.md
 ```
 
 Each future theme should get its own directory, for example `pets/microduck-space/`, with a self-contained `pet.json` and `spritesheet.webp`.
+
+Reusable creation prompts, mouth-design decisions, and motion mechanics are kept in [`docs/microduck/`](docs/microduck/) so future themes can build on the same design knowledge.
 
 ## Licensing
 
