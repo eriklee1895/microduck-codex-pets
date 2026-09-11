@@ -15,7 +15,7 @@ The repository starts with a cartoon `MicroDuck` pet based on the real [Pollen R
 - Animation: Codex v2 atlas with standard activity states and 16 look directions
 - Package: `pets/microduck/pet.json` + `pets/microduck/spritesheet.webp`
 
-## Let Codex Handle It
+## Install with Codex
 
 Give Codex this prompt:
 
